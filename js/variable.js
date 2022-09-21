@@ -18,3 +18,11 @@ var is_active = true
 console.log(is_active)
 is_active = false
 console.log(is_active)
+
+// 定数
+const TAX_RATE = 0.1
+// TAX_RATE = 0.08
+console.log(TAX_RATE)
+
+const TOKYO = "東京";
+console.log(TOKYO)
