@@ -69,3 +69,8 @@ console.log(is_bool)
 hp = 10
 is_bool = (hp >= 10)
 console.log(is_bool)
+
+// 三項演算
+hp = 10
+var result = (hp <= 20) ? "ピンチ！" : "まだ平気"
+console.log(result)
