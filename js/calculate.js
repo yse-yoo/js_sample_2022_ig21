@@ -27,3 +27,9 @@ console.log(hp)
 
 hp /= 2
 console.log(hp)
+
+// 文字列の連結
+hp = 10
+var monster_name = "スライム"
+var status_message = monster_name + "があらわれた！"
+console.log(status_message)
