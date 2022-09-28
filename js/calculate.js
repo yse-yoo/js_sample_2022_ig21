@@ -13,3 +13,17 @@ console.log(hp)
 hp--
 console.log(hp)
 
+// 複合演算
+console.log('複合演算')
+hp = 5 
+hp += 3
+console.log(hp)
+
+hp -= 2
+console.log(hp)
+
+hp *= 3
+console.log(hp)
+
+hp /= 2
+console.log(hp)

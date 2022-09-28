@@ -24,5 +24,5 @@ const TAX_RATE = 0.1
 // TAX_RATE = 0.08
 console.log(TAX_RATE)
 
-const TOKYO = "東京";
+const TOKYO = "東京"
 console.log(TOKYO)
