@@ -40,3 +40,11 @@ const hello2 = (name) => {
 }
 var message = hello2("横浜　太郎")
 console.log(message)
+
+// onload
+// HTMLの読み込みが完了したら実行
+window.onload = () => { 
+    console.log("東京")
+}
+
+console.log("横浜")
