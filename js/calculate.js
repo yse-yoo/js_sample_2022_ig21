@@ -74,3 +74,15 @@ console.log(is_bool)
 hp = 10
 var result = (hp <= 20) ? "ピンチ！" : "まだ平気"
 console.log(result)
+
+// 問題1
+var total_price = 0
+var price = 300
+var amount = 5
+var discount = 100
+const TAX_RATE = 0.1
+
+// 問題2
+total_price = price * amount * (1 + TAX_RATE) - discount
+total_price = total_price.toFixed()
+console.log(total_price)
