@@ -26,3 +26,11 @@ function totalPrice(price, amount) {
 //メソッド実行
 var total_price = totalPrice(300, 5)
 console.log(total_price)
+
+//無名関数
+const hello = function (name) {
+    return name + "さん、いらっしゃい！"
+}
+
+var message = hello("横浜　太郎")
+console.log(message)
