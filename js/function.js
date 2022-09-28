@@ -31,6 +31,12 @@ console.log(total_price)
 const hello = function (name) {
     return name + "さん、いらっしゃい！"
 }
-
 var message = hello("横浜　太郎")
+console.log(message)
+
+// アロー関数(Arrow) anfn
+const hello2 = (name) => { 
+    return name + "さん、いらっしゃい！"
+}
+var message = hello2("横浜　太郎")
 console.log(message)
