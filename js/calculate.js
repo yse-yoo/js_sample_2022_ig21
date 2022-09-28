@@ -41,3 +41,31 @@ console.log(status_message)
 status_message = `${monster_name}のHPは${hp}`
 console.log(status_message)
 
+var message = "この物語は"
+message += "フィクションです"
+console.log(message)
+
+message += 2020
+console.log(message)
+
+var attack = 10
+hp = 50
+hp = hp - attack
+console.log(hp)
+
+var is_bool
+hp = 10
+is_bool = (hp == 20)
+console.log(is_bool)
+
+hp = 0
+is_bool = (hp < -10)
+console.log(is_bool)
+
+hp = 0
+is_bool = (hp > -10)
+console.log(is_bool)
+
+hp = 10
+is_bool = (hp >= 10)
+console.log(is_bool)
