@@ -15,3 +15,6 @@ outputP("スポーツ")
 document.title = "プロフィール"
 document.body.style.color = "#808080"
 document.body.style.background = "#fffaf0"
+
+var image_tag =  '<img src="./images/tokyo_station.jpg" width="500">'
+document.write(image_tag)
