@@ -14,6 +14,7 @@ const inputCharacterName = () => {
 const buy = () => { 
     var item_name = itemNameElement.innerText
     var item_price = itemPriceElement.innerText
-    var amount = amountElement.innerText
+    var amount = amountElement.value
     console.log('buy')
+    console.log(item_name, item_price, amount)
 }
