@@ -4,6 +4,8 @@ var timer
 
 const start = () => {
     console.log("start")
+    clearInterval(timer)
+
     var count = 0
     timer = setInterval(function () {
         count++
