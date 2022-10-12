@@ -6,7 +6,8 @@ const start = () => {
     console.log("start")
     var count = 0
     timer = setInterval(function () {
-
+        count++
+        counterElement.innerHTML = count
     }, interval)
 }
 
