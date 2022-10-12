@@ -12,9 +12,14 @@ const inputCharacterName = () => {
 }
 
 const buy = () => { 
+    console.log('buy')
+
     var item_name = itemNameElement.innerText
     var item_price = itemPriceElement.innerText
     var amount = amountElement.value
-    console.log('buy')
-    console.log(item_name, item_price, amount)
+    var total_price = item_price * amount
+    var message = item_name + "を" + amount + "個でいいですか？"
+            + total_price + "Gになります"
+
+    messageElement.innerHTML = message
 }
