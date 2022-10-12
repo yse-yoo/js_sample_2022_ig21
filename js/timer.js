@@ -15,4 +15,5 @@ const start = () => {
 
 const stop = () => {
     console.log("stop")
+    clearInterval(timer)
 }
