@@ -7,18 +7,20 @@ var timer
 const interval = 100
 const step = 1
 
-const start = () => { 
+const start = () => {
     console.log('Start')
 
     var count = 0
+    var x = 0
     clearInterval(timer)
-    timer = setInterval(function() {
+    timer = setInterval(function () {
         count++
-        console.log(count)
+        x = step * count
+        character.style.left = x + 'px'
     }, interval)
 }
 
-const stop = () => { 
+const stop = () => {
     console.log('Stop')
     clearInterval(timer)
 }
