@@ -26,5 +26,8 @@ const stop = () => {
 }
 
 const showPlot = () => {
-
+    var rect = character.getBoundingClientRect()
+    console.log(rect)
+    var message = "(" + rect.x + "," + rect.y + ")"
+    document.getElementById("message").innerHTML = message
 }
