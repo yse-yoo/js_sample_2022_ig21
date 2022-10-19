@@ -34,7 +34,10 @@
       </dd>
       <dt class="col-4">個数</dt>
       <dd class="col-8">
-        <input type="number" id="amount" class="form-control" min="0" max="5">
+        <input type="number" id="amount" class="form-control" 
+        min="0" max="5"
+        oninput="checkAmount()"
+        >
       </dd>
     </dl>
     <button class="btn btn-danger" onclick="buy()">購入</button>

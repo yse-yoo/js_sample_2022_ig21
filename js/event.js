@@ -11,6 +11,14 @@ const inputCharacterName = () => {
     messageElement.innerHTML = message
 }
 
+const checkAmount = () => { 
+    var amount = amountElement.value
+    if (amount < 0) {
+        // amountElement.style.borderColor = "red"
+        amountElement.value = 0
+    }
+}
+
 const buy = () => { 
     console.log('buy')
     var money = document.getElementById("money").innerText
