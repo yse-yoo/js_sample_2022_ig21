@@ -23,6 +23,8 @@ const buy = () => {
             + total_price + "Gになります"
     if (total_price > money) {
         message = "所持金がたりません"
+    } else if (amount <= 0) {
+        message = "個数がまちがっています"
     }
     messageElement.innerHTML = message
 }
