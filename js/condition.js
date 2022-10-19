@@ -11,18 +11,20 @@ if (hp > 0) {
 }
 document.getElementById("message").innerHTML = message
 
+var date = new Date()
+// 曜日の数字取得
+var weekIndex = date.getDay() 
 var weekday = "水"
 var type = ""
 
-switch (weekday) {
-    case "水":
+switch (weekIndex) {
+    case 1:
+    case 6:
         type = "燃えるゴミ" 
         break;
-
-    case "金":
+    case 3:
         type = "燃えないゴミ" 
         break;
-
     default:
         type = "回収なし" 
         break;
