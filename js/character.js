@@ -4,8 +4,8 @@ character.style.left = 0
 character.style.top = '100px'
 
 var timer
-const interval = 100
-const step = 1
+const interval = 10
+const step = 1 
 
 const start = () => {
     console.log('Start')
@@ -23,4 +23,8 @@ const start = () => {
 const stop = () => {
     console.log('Stop')
     clearInterval(timer)
+}
+
+const showPlot = () => {
+
 }
