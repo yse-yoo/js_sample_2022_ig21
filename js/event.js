@@ -13,13 +13,16 @@ const inputCharacterName = () => {
 
 const buy = () => { 
     console.log('buy')
-
+    var money = document.getElementById("money").innerText
     var item_name = itemNameElement.innerText
     var item_price = itemPriceElement.innerText
     var amount = amountElement.value
     var total_price = item_price * amount
+
     var message = item_name + "を" + amount + "個でいいですか？"
             + total_price + "Gになります"
-
+    if (total_price > money) {
+        message = "所持金がたりません"
+    }
     messageElement.innerHTML = message
 }
