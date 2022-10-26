@@ -43,3 +43,11 @@ console.log(index)
 drinks[1] = "ウーロン茶"
 console.log(drinks)
 console.log(drinks.length)
+
+// 曜日の取得
+var weekdays = ['日', '月', '火', '水', '木', '金', '土']
+var date = new Date()
+var weekIndex = date.getDay()
+var weekString = weekdays[weekIndex]
+
+document.getElementById('weekday').innerHTML = weekString
