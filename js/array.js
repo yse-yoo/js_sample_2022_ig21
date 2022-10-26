@@ -25,4 +25,9 @@ drinks.unshift('オレンジジュース')
 console.log(drinks)
 console.log(drinks.length)
 
+// Index = 1 の前に（要素）追加、配列削除なし = 0
+drinks.splice(1, 0, 'コーヒー')
+console.log(drinks)
+console.log(drinks.length)
+
 
