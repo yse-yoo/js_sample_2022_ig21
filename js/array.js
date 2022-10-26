@@ -35,3 +35,6 @@ drinks.splice(1, 1)
 console.log(drinks)
 console.log(drinks.length)
 
+// Indexの取得
+var index = drinks.indexOf('ほうじ茶')
+console.log(index)
