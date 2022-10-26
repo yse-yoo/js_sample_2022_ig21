@@ -38,3 +38,8 @@ console.log(drinks.length)
 // Indexの取得
 var index = drinks.indexOf('ほうじ茶')
 console.log(index)
+
+// Indexを指定して値を更新
+drinks[1] = "ウーロン茶"
+console.log(drinks)
+console.log(drinks.length)
