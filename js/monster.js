@@ -13,3 +13,13 @@ monsterElement2.innerHTML = 'キメラ'
 stage.appendChild(monsterElement2)
 
 stage.removeChild(monsterElement1)
+
+// aリンク作成
+// <a href="https://google.com/search?q=スライム" taget="_blank">スライム</a>
+
+var a = document.createElement('a')
+a.href = "https://google.com/search?q=" + monsterElement1.innerHTML
+a.target = "_blank"
+a.innerHTML = monsterElement1.innerHTML
+
+stage.appendChild(a)
