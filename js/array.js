@@ -5,13 +5,24 @@ console.log(drinks.length)
 var drink = drinks[1]
 console.log(drink)
 
-// 値（要素）追加
+// 最後に値（要素）追加
 drinks.push('炭酸水')
 console.log(drinks)
 console.log(drinks.length)
 
-// 値（要素）削除
+// 最後の値（要素）削除
 drinks.pop()
 console.log(drinks)
 console.log(drinks.length)
+
+// 最初の値（要素）削除
+drinks.shift()
+console.log(drinks)
+console.log(drinks.length)
+
+// 最初に値（要素）追加
+drinks.unshift('オレンジジュース')
+console.log(drinks)
+console.log(drinks.length)
+
 
