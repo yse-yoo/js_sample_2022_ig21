@@ -30,4 +30,8 @@ drinks.splice(1, 0, 'コーヒー')
 console.log(drinks)
 console.log(drinks.length)
 
+// Index = 1 の（要素）から１つ削除
+drinks.splice(1, 1)
+console.log(drinks)
+console.log(drinks.length)
 
