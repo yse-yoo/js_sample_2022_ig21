@@ -11,6 +11,13 @@ var character = {
 console.log(character)
 console.log(character.id)
 
+
+character.hp -= 2
+character.mp -= 2
+character.exp += 3
+
+
+
 document.getElementById('name').innerHTML = character.name
 document.getElementById('job').innerHTML = character.job
 document.getElementById('level').innerHTML = character.level
