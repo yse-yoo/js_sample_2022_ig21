@@ -12,3 +12,4 @@ var users = [
     { id: 2, name: 'User2', email: 'user2@test.com', tel: '03-2111-2222'},
     { id: 3, name: 'User3', email: 'user3@test.com', tel: '03-3111-2222'},
 ]
+console.log(users)
