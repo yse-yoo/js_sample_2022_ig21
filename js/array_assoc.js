@@ -7,15 +7,12 @@ var character = {
     mp: 10,
     exp: 0,
 }
-
 const battle = () => {
     character.hp -= 2
     character.mp -= 2
     character.exp += 3
-
     showStatus()
 }
-
 const showStatus = () => {
     document.getElementById('name').innerHTML = character.name
     document.getElementById('job').innerHTML = character.job
@@ -24,6 +21,5 @@ const showStatus = () => {
     document.getElementById('mp').innerHTML = character.mp
     document.getElementById('exp').innerHTML = character.exp
 }
-
 console.log(character)
 showStatus()
