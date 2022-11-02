@@ -20,7 +20,14 @@ for (var i = 0; i < 10; i++) {
 
 //1から1000まで足した合計値
 var sum = 0
-for (let i = 1; i <= 1000; i++) {
+for (var i = 1; i <= 1000; i++) {
    sum += i 
 }
 console.log(sum)
+
+for (const user of users) {
+    console.log(user.id)
+    console.log(user.name)
+    console.log(user.email)
+    console.log(user.tel)
+}
