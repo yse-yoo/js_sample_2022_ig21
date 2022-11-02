@@ -8,19 +8,22 @@ var character = {
     exp: 0,
 }
 
+const battle = () => {
+    character.hp -= 2
+    character.mp -= 2
+    character.exp += 3
+
+    showStatus()
+}
+
+const showStatus = () => {
+    document.getElementById('name').innerHTML = character.name
+    document.getElementById('job').innerHTML = character.job
+    document.getElementById('level').innerHTML = character.level
+    document.getElementById('hp').innerHTML = character.hp
+    document.getElementById('mp').innerHTML = character.mp
+    document.getElementById('exp').innerHTML = character.exp
+}
+
 console.log(character)
-console.log(character.id)
-
-
-character.hp -= 2
-character.mp -= 2
-character.exp += 3
-
-
-
-document.getElementById('name').innerHTML = character.name
-document.getElementById('job').innerHTML = character.job
-document.getElementById('level').innerHTML = character.level
-document.getElementById('hp').innerHTML = character.hp
-document.getElementById('mp').innerHTML = character.mp
-document.getElementById('exp').innerHTML = character.exp
+showStatus()
