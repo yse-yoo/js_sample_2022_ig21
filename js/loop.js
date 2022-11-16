@@ -40,6 +40,6 @@ const play = () => {
         }
         min = max
     }
-    console.log(selected_rarity)
     document.getElementById('rarity_name').innerHTML = selected_rarity.name
+    document.getElementById('number').innerHTML = number
 }
