@@ -12,3 +12,12 @@ while (number <= 100) {
    }
    number++ 
 }
+
+// rarities
+var rarities = [
+    { type: 'N', name: 'ノーマル', probability: 70 },
+    { type: 'NP', name: 'ノーマル+', probability: 20 },
+    { type: 'R', name: 'レア', probability: 6 },
+    { type: 'SR', name: 'スーパーレア', probability: 3 },
+    { type: 'LR', name: 'レジエンド', probability: 1 },
+]
