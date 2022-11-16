@@ -21,3 +21,24 @@ var rarities = [
     { type: 'SR', name: 'スーパーレア', probability: 3 },
     { type: 'LR', name: 'レジエンド', probability: 1 },
 ]
+
+function randomNumber(min, max) {
+    var number = Math.floor(Math.random() * (max + 1 - min)) + min;
+    return number;
+}
+
+const play = () => {
+    var min = 0
+    var max = 100
+    var number = randomNumber(min, max)
+    var selected_rarity
+    for (const rarity of rarities) {
+        max = min + rarity.probability
+        if (number >= min && number <= max) {
+            selected_rarity = rarity
+            break;
+        }
+        min = max
+    }
+    console.log(selected_rarity)
+}
