@@ -12,3 +12,9 @@ var new_scores = scores.map(function(score) {
     return score * 2
 })
 console.log(new_scores)
+
+//70以上のデータのみ作成
+new_scores = scores.filter(function(score) {
+    return score >= 70
+})
+console.log(new_scores)
