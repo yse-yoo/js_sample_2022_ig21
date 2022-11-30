@@ -15,3 +15,14 @@ cities.forEach(function(city) {
 for (const city of cities) {
     console.log(city.innerHTML)
 }
+
+//h2,h3を選択
+var titles = document.querySelectorAll('h2, h3')
+console.log(titles)
+
+// class=item_list
+var items = document.querySelectorAll('ul.item_list > li')
+console.log(items)
+items.forEach(function(item) {
+    console.log(item.innerHTML)
+})
