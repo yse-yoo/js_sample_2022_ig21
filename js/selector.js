@@ -44,3 +44,6 @@ for (const city of cities) {
 Array.from(cities).forEach(function(city) {
     console.log(city.innerHTML)
 })
+
+var itemList = document.getElementsByClassName('item_list')
+console.log(itemList)
