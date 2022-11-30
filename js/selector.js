@@ -56,8 +56,8 @@ for (const items of itemList) {
 
 console.log('-- querySelector item_list ---')
 itemList = document.querySelectorAll('.item_list')
-itemList.forEach(function (items) {
+for (const items of itemList) {
     for (const item of items.children) {
         console.log(item.innerHTML)
     }
-})
+}
