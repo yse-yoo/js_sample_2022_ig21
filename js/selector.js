@@ -38,6 +38,9 @@ contries.forEach(function(country) {
 // className
 cities = document.getElementsByClassName('city')
 console.log(cities)
-cities.forEach(function(city) {
+for (const city of cities) {
+    console.log(city.innerHTML)
+}
+Array.from(cities).forEach(function(city) {
     console.log(city.innerHTML)
 })
