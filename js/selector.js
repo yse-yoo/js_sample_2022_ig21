@@ -39,7 +39,7 @@ items.forEach(function(item) {
 var shop = document.querySelector('#shop')
 console.log(shop.innerHTML)
 
-var contries = document.querySelectorAll('ul.country_list > li')
+var contries = document.querySelectorAll('.country_list > li')
 contries.forEach(function(country) {
     console.log(country.innerHTML)
 })
