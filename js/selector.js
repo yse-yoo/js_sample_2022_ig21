@@ -26,3 +26,20 @@ console.log(items)
 items.forEach(function(item) {
     console.log(item.innerHTML)
 })
+
+// var itemList = document.querySelectorAll('ul.item_list')
+
+// itemList.forEach(function(items, index) {
+//     for (item of items) {
+//         console.log(item)
+//         // item.style.backgrondColor = "red"
+//     }
+// })
+
+var shop = document.querySelector('#shop')
+console.log(shop.innerHTML)
+
+var contries = document.querySelectorAll('ul.country_list > li')
+contries.forEach(function(country) {
+    console.log(country.innerHTML)
+})
