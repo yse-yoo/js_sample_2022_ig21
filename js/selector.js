@@ -11,3 +11,7 @@ console.log(cities)
 cities.forEach(function(city) {
     console.log(city.innerHTML)
 })
+
+for (const city of cities) {
+    console.log(city.innerHTML)
+}
