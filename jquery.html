@@ -9,11 +9,24 @@
 </head>
 <body>
   
+  <h1 id="title">都市</h1>
+  <ul>
+    <li class="city">Tokyo</li>
+    <li class="city">Yokohama</li>
+    <li class="city">Osaka</li>
+    <li class="city">Nagoya</li>
+    <li class="city">Kobe</li>
+  </ul>
+
   <script>
     $(() => {
        console.log('Hello')
        const message = "jQyeryのバージョンは" + $.fn.jquery
        console.log(message)
+
+      var titleElement = $('#title')
+      console.log(titleElement)
+      console.log($('#title').html())
     })
     console.log('Tokyo')
   </script>
