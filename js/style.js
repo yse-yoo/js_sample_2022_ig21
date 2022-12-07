@@ -14,4 +14,5 @@ const toggle = () => {
 }
 const replace = () => {
     console.log('replace!!!')
+    messageElement.classList.replace('message', 'frame')
 }
