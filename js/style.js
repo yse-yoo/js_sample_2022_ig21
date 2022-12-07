@@ -16,3 +16,10 @@ const replace = () => {
     console.log('replace!!!')
     messageElement.classList.replace('message', 'frame')
 }
+
+function over(element) {
+    console.log(element)
+}
+function out(element) {
+    console.log(element)
+}
