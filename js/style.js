@@ -19,7 +19,9 @@ const replace = () => {
 
 function over(element) {
     console.log(element)
+    element.classList.add('fadein')
 }
 function out(element) {
     console.log(element)
+    element.classList.remove('fadein')
 }

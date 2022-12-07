@@ -24,3 +24,18 @@
     color: white;
     text-decoration: none;
 }
+
+
+.fadein {
+    animation-duration: 0.5s;
+    animation-name: fadein;
+}
+
+@keyframes fadein {
+    from {
+        color: white;
+    } 
+    to {
+        color: teal;
+    } 
+}
