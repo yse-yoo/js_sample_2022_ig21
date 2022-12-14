@@ -11,6 +11,10 @@ $('#getText').on('click', () => {
         url: apiUrl,
         dataType: "text",
     }).done((data) => {
+        // JSONデータ取得
         console.log(data)
+        // JSONデータをパース
+        var result = JSON.parse(data)
+        console.log(result)
     });
 })
