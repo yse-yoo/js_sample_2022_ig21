@@ -16,5 +16,6 @@ $('#getText').on('click', () => {
         // JSONデータをパース
         var result = JSON.parse(data)
         console.log(result)
+        console.log(result.foods)
     });
 })
