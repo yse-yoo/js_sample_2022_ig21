@@ -13,6 +13,8 @@ function open() {
 
 function close() {
     photo.fadeOut(2000, 'swing', () => {
+        var path = './images/monster_006.png'
+        $('#photo > img').attr('src', path)
         setTimeout(open, 500);
     });
 }
