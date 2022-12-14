@@ -28,7 +28,7 @@ $(() => {
     function slideToLeft() {
         if (!photo.is(':animated')){
             photo.animate(
-            { left: 0 }, 1000, 'swing'
+            { left: 50 }, 1000, 'swing'
             )
         }
     }
@@ -36,7 +36,7 @@ $(() => {
     function slideToUp() {
         if (!photo.is(':animated')){
             photo.animate(
-                { top: 0 }, 1000, 'swing'
+                { top: 50 }, 1000, 'swing'
             )
         }
     }
